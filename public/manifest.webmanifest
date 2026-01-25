@@ -1,0 +1,22 @@
+{
+  "name": "Watermark",
+  "short_name": "Watermark",
+  "description": "Ajoutez des filigranes à vos PDF et images en toute confidentialité, directement dans le navigateur.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#eef2ff",
+  "theme_color": "#eef2ff",
+  "icons": [
+    {
+      "src": "/icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}
