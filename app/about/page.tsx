@@ -26,17 +26,17 @@ const content: Record<Locale, {
     privacyPoints: [
       "Traitement local : tout se passe dans votre navigateur, sans serveur.",
       "Aucun stockage : vos fichiers ne sont jamais enregistrés.",
-      "Zéro transfert : aucune donnée n’est envoyée à un service externe.",
+      "Zéro transfert : aucune donnée n'est envoyée à un service externe.",
     ],
     techTitle: "Technos clés",
     techPoints: [
-      "Next.js + TypeScript pour l’interface.",
+      "Next.js + TypeScript pour l'interface.",
       "pdf-lib pour le watermark vectoriel des PDF.",
-      "Canvas pour l’aperçu et les images.",
+      "Canvas pour l'aperçu et les images.",
     ],
     limitsTitle: "Limites connues",
     limits: "Les très gros fichiers peuvent être lents selon la mémoire disponible dans le navigateur.",
-    backHome: "Retour à l’accueil",
+    backHome: "Retour à l'accueil",
     languageLabel: "Langue",
   },
   en: {

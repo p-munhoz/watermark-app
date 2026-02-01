@@ -70,7 +70,7 @@
     const fr = {
       title: "Cookies & mesures",
       body:
-        "Nous utilisons Google Analytics uniquement après votre accord pour améliorer l’expérience. Aucune publicité.",
+        "Nous utilisons Google Analytics uniquement après votre accord pour améliorer l'expérience. Aucune publicité.",
       accept: "Tout accepter",
       reject: "Tout refuser",
       link: "En savoir plus",

@@ -9,16 +9,16 @@ import type { Locale } from "../lib/i18n";
 const content: Record<Locale, { title: string; intro: string; points: { title: string; text: string }[]; legal: string; backHome: string }> = {
   fr: {
     title: "Confidentialité & Mentions légales",
-    intro: "Watermark fonctionne entièrement dans votre navigateur : aucun fichier n’est envoyé ni conservé.",
+    intro: "Watermark fonctionne entièrement dans votre navigateur : aucun fichier n'est envoyé ni conservé.",
     points: [
       { title: "Traitement local", text: "Les PDF et images sont traités côté client (canvas / pdf-lib). Aucun upload serveur." },
       { title: "Stockage minimal", text: "Seules vos préférences (langue, réglages du filigrane) sont enregistrées dans localStorage." },
-      { title: "Cookies tiers", text: "Aucun tracker tiers n’est chargé par défaut. Si vous activez Google Analytics, des cookies/mesures d’audience tiers pourront être déposés." },
-      { title: "Code source", text: "Le code est ouvert : vous pouvez vérifier et auto-héberger l’outil." },
-      { title: "Fichiers volumineux", text: "Des fichiers très lourds ou très longs (ex. >50 Mo ou milliers de pages) peuvent saturer la mémoire du navigateur et faire planter l’onglet." },
+      { title: "Cookies tiers", text: "Aucun tracker tiers n'est chargé par défaut. Si vous activez Google Analytics, des cookies/mesures d'audience tiers pourront être déposés." },
+      { title: "Code source", text: "Le code est ouvert : vous pouvez vérifier et auto-héberger l'outil." },
+      { title: "Fichiers volumineux", text: "Des fichiers très lourds ou très longs (ex. >50 Mo ou milliers de pages) peuvent saturer la mémoire du navigateur et faire planter l'onglet." },
     ],
     legal: "Responsable de publication : Watermark. Hébergement : Vercel (UE/US). Contact : page Contact.",
-    backHome: "Retour à l’accueil",
+    backHome: "Retour à l'accueil",
   },
   en: {
     title: "Privacy & Legal",

@@ -10,6 +10,7 @@ const content: Record<Locale, {
   intro: string;
   contactTitle: string;
   contactItems: string[];
+  contactEmailLabel: string;
   privacyTitle: string;
   privacyText: string;
   responseTitle: string;
@@ -19,18 +20,19 @@ const content: Record<Locale, {
 }> = {
   fr: {
     title: "Contact",
-    intro: "Une question, un bug, ou une idée d’amélioration ?",
+    intro: "Une question, un bug, ou une idée d'amélioration ?",
     contactTitle: "Nous contacter",
     contactItems: [
       "Décrivez le problème et joignez un exemple si possible.",
       "Indiquez votre navigateur et votre OS (Chrome/Firefox/Safari/Edge).",
       "Précisez si le fichier est un PDF ou une image et sa taille.",
     ],
+    contactEmailLabel: "Par email :",
     privacyTitle: "Confidentialité",
     privacyText: "Merci de ne jamais envoyer de documents sensibles : nous ne collectons pas les fichiers, mais un exemple anonymisé aide à diagnostiquer.",
     responseTitle: "Délai de réponse",
     responseText: "Nous faisons de notre mieux pour répondre rapidement, selon la disponibilité.",
-    backHome: "Retour à l’accueil",
+    backHome: "Retour à l'accueil",
     languageLabel: "Langue",
   },
   en: {
@@ -42,10 +44,11 @@ const content: Record<Locale, {
       "Include your browser and OS (Chrome/Firefox/Safari/Edge).",
       "Specify whether the file is a PDF or an image and its size.",
     ],
+    contactEmailLabel: "By email:",
     privacyTitle: "Privacy",
-    privacyText: "Please never share sensitive documents: we don’t collect files, but a sanitized example helps debugging.",
+    privacyText: "Please never share sensitive documents: we don't collect files, but a sanitized example helps debugging.",
     responseTitle: "Response time",
-    responseText: "We’ll do our best to reply quickly depending on availability.",
+    responseText: "We'll do our best to reply quickly depending on availability.",
     backHome: "Back to home",
     languageLabel: "Language",
   },
@@ -71,6 +74,15 @@ export default function ContactPage() {
                 <li key={p}>{p}</li>
               ))}
             </ul>
+            <p className="mt-4 text-slate-700 dark:text-slate-200">
+              {t.contactEmailLabel}{" "}
+              <a
+                href="mailto:pierre.munhoz@gmail.com"
+                className="text-indigo-600 font-semibold hover:text-indigo-700 dark:text-indigo-300 dark:hover:text-indigo-200"
+              >
+                pierre.munhoz@gmail.com
+              </a>
+            </p>
           </div>
 
           <div>

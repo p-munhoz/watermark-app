@@ -153,7 +153,7 @@ export const messages: Record<Locale, Messages> = {
     footerCookies: "Préférences cookies",
     notFoundTitle: "Page introuvable",
     notFoundBody: "Le lien est peut-être incorrect ou la page a été déplacée. Revenez à l'accueil ou utilisez la navigation.",
-    notFoundBack: "Retour à l’accueil",
+    notFoundBack: "Retour à l'accueil",
     errorTitle: "Une erreur est survenue",
     errorHeading: "Oups !",
     errorBody: "Une erreur inattendue s'est produite. Vous pouvez réessayer ou revenir à l'accueil.",
