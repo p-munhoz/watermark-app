@@ -104,5 +104,6 @@ export async function addVectorWatermarkToPdf(pdfFile: File, settings: Watermark
   }
 
   const out = await pdfDoc.save();
-  return new Blob([out], { type: "application/pdf" });
+  // pdf-lib returns a Uint8Array<ArrayBufferLike>; cast the buffer to ArrayBuffer for Blob compatibility
+  return new Blob([out.buffer as ArrayBuffer], { type: "application/pdf" });
 }

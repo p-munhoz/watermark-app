@@ -277,7 +277,7 @@ export default function Home() {
 
         const out = await merged.save();
         downloadBlob(
-          new Blob([out], { type: "application/pdf" }),
+          new Blob([out.buffer as ArrayBuffer], { type: "application/pdf" }),
           "watermarked-merged.pdf",
         );
 
